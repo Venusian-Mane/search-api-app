@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates a snapshot 1`] = `
+<div
+  className="App"
+>
+  <link
+    crossorigin="anonymous"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    rel="stylesheet"
+  />
+  <div>
+    <div
+      className="header"
+    >
+      <h1
+        className="title"
+      >
+        iTunes Search App
+      </h1>
+      <br />
+      <p
+        className="headPara"
+      >
+        Find and list all your favourite content here. From Music and Books, to Movies, Audio Books Podcasts and more.
+      </p>
+      <img
+        className="appleLogo"
+        src="icons.png"
+      />
+    </div>
+    <div
+      className="nav-bar"
+    >
+      <nav
+        className="navbar navbar-expand navbar-dark bg-dark sticky-top"
+      >
+        <span
+          className="navbar-brand"
+        >
+          Navigate
+        </span>
+        <div
+          className="mr-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="nav-link"
+            data-rb-event-key="/home"
+            href="/home"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Home
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/search"
+            href="/search"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Search
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/favourites"
+            href="/favourites"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Favourites
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key="/results"
+            href="/results"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+          >
+            Results
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

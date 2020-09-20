@@ -1,0 +1,105 @@
+{
+  "media": [
+    "movie",
+    "podcast",
+    "music",
+    "musicVideo",
+    "audiobook",
+    "shortFilm",
+    "tvShow",
+    "software",
+    "ebook",
+    "all"
+  ],
+  "entity": [
+    "movieArtist",
+    "movie",
+    "podcastAuthor",
+    "podcast",
+    "musicArtist",
+    "musicTrack",
+    "album",
+    "musicVideo",
+    "mix",
+    "song",
+    "audiobookAuthor",
+    "audiobook",
+    "shortFilmArtist",
+    "shortFilm",
+    "software",
+    "iPadSoftware",
+    "macSoftware"
+  ],
+  "attribute": [
+    {
+      "movie": [
+        "actorTerm",
+        "genreIndex",
+        "artistTerm",
+        "shortFilmTerm",
+        "producerTerm",
+        "ratingTerm",
+        "directorTerm",
+        "releaseYearTerm",
+        "featureFilmTerm",
+        "movieArtistTerm",
+        "movieTerm",
+        "ratingIndex",
+        "descriptionTerm"
+      ]
+    },
+    {
+      "podcast": [
+        "titleTerm",
+        "languageTerm",
+        "authorTerm",
+        "genreIndex",
+        "artistTerm",
+        "ratingIndex",
+        "keywordsTerm",
+        "descriptionTerm"
+      ]
+    },
+    {
+      "music": [
+        "mixTerm",
+        "genreIndex",
+        "artistTerm",
+        "composerTerm",
+        "albumTerm",
+        "ratingIndex",
+        "songTerm"
+      ]
+    },
+    {
+      "musicVideo": [
+        "genreIndex",
+        "artistTerm",
+        "albumTerm",
+        "ratingIndex",
+        "songTerm"
+      ]
+    },
+    { "audioBook": ["titleTerm", "authorTerm", "genreIndex", "ratingIndex"] },
+    {
+      "shortFilm": [
+        "genreIndex",
+        "artistTerm",
+        "shortFilmTerm",
+        "ratingIndex",
+        "descriptionTerm"
+      ]
+    },
+    { "software": "softwareDeveloper" },
+    {
+      "tvShow": [
+        "genreIndex",
+        "tvEpisodeTerm",
+        "showTerm",
+        "tvSeasonTerm",
+        "ratingIndex",
+        "descriptionTerm"
+      ]
+    }
+  ]
+}

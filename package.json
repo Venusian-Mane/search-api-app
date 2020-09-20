@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "iTunes Application Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Venusian-Mane",
+  "license": "ISC",
+  "dependencies": {
+    "babel-install": "2.1.0",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "express-async-await": "1.1.0",
+    "helmet": "4.1.1",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
